@@ -1,0 +1,39 @@
+h1{
+    color:violet;
+    margin-left: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+div.buttons{
+    width: 300px;
+    height: 200px;
+    border-style: dotted solid double;
+    border-width: thin medium thick;
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: red;
+    background-color: blue;
+    border: none;
+    border-radius: 15;
+    box-shadow: 0 9px #800101;
+}
+button:hover{
+    background-color: darkred;
+}
+
+button:active{
+    background-color: darkred;
+    box-shadow: 0 5px #440a0a;
+    transform: translate(4px);
+}
